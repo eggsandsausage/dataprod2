@@ -1,0 +1,54 @@
+---
+title       : Indexinator 2000 Pitch
+subtitle    : This presentation will blow your mind
+author      : Hampus B
+job         : misc
+framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
+highlighter : prettify  # {highlight.js, prettify, highlight}
+hitheme     : tomorrow      # 
+widgets     : [bootstrap, quiz, shiny, interactive]           
+mode        : selfcontained # {standalone, draft}
+---
+
+## What is the Indexinator 2000
+
+The Indexinator 2000 provides unparallalled indexing capabilities on the fly and its as simple as the click of a button. Have you ever wanted to compose your own index of how the worlds countries are actually faring? Constantly frustrated with tedious measurements provided by the U.N. and other uninspired organizations? Well look no further, the Indexinator 2000 will allow you compose your own metrics and judge for yourselves. It uses Googles Visualizations so you'll be able to do cools stuff like kind of like the chart in the next slide:
+
+--- &interactive
+
+## Interactive Console
+
+```{r opts.label = 'interactive', results = 'asis', message=FALSE, error=FALSE, echo=FALSE}
+require(googleVis)
+M1 <- gvisMotionChart(Fruits, idvar = 'Fruit', timevar = 'Year')
+print(M1, tag = 'chart')
+```
+
+---
+
+## Still need more convincing?
+
+The Indexinator has been proven (on significance levels of *.99*) to imbue the following benefits in its user:
+
+1. You will become stronger
+2. You will become faster
+3. Your taxes will be severly reduced
+4. You will be able to eat unlimited amounts of ice cream without getting a brain freeze.
+
+--- &radio
+
+## Quiz time! 
+
+Do you want the Indexinator 2000?
+
+1. _Yes_
+2. No
+3. Maybe
+4. It's complicated
+
+*** .hint
+Yes, yes you do. You want it bad.
+
+*** .explanation
+I just explained it to you. It's awesome. Now go get it.
+
